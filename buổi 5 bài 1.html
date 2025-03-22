@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Design 3 Web</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+        .sidebar {
+            width: 80px;
+            background-color: #1E1E1E;
+            padding: 20px 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sidebar .icon {
+            color: white;
+            font-size: 24px;
+            margin: 20px 0;
+            cursor: pointer;
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+        }
+        .header {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .description {
+            font-size: 18px;
+            color: #B3B3B3;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #BB86FC;
+            color: black;
+            border: none;
+            border-radius: 24px;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background-color: #9B67E0;
+        }
+        .image-section {
+            flex: 1;
+            background-color: #FF5722;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            overflow: hidden;
+        }
+        .image-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <span class="material-symbols-outlined icon">home</span>
+        <span class="material-symbols-outlined icon">menu_book</span>
+        <span class="material-symbols-outlined icon">code</span>
+        <span class="material-symbols-outlined icon">style</span>
+        <span class="material-symbols-outlined icon">apps</span>
+    </div>
+    <div class="main-content">
+        <div class="header">Material Design</div>
+        <div class="description">
+            Material 3 is the latest version of Google's open-source design system. 
+            Design and build beautiful, usable products with Material 3.
+        </div>
+        <button class="button">Get started</button>
+    </div>
+    <div class="image-section">
+        <img src="https://i.pinimg.com/originals/46/41/61/4641611401ecb508c625eebe448da663.gif" alt="Uploaded Image">
+    </div>
+</body>
+</html>
+
